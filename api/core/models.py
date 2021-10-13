@@ -6,4 +6,4 @@ class Cliente(models.Model):
     idade = models.IntegerField()
 
     def __str__(self):
-        return self.nomes    
+        return self.nome    
